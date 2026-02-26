@@ -40,7 +40,7 @@ const DharaSection: React.FC = () => {
           <div className="dhara-content reverse">
             <div className="dhara-info">
               <p>धारा 21 के तहत भूमि क्रय, पट्टा (Lease), दान एवं अनुमति से संबंधित समस्त प्रशासनिक सेवाएँ:</p>
-              <div className="dhara-grid">
+              {/* <div className="dhara-grid">
                 <div className="grid-item">
                   <LandPlot size={24} />
                   <span>भूमि क्रय/विक्रय</span>
@@ -57,7 +57,7 @@ const DharaSection: React.FC = () => {
                   <HelpCircle size={24} />
                   <span>विशेष परामर्श</span>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="dhara-image-placeholder">
               <img

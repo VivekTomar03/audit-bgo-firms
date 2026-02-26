@@ -3,12 +3,13 @@ import { Target, Users, BookOpen, Building2, Briefcase, GraduationCap } from 'lu
 
 const Specialization: React.FC = () => {
   const specializations = [
-    { name: "समितियाँ", icon: <Users size={24} />, description: "सामाजिक एवं धार्मिक समितियाँ" },
     { name: "एनजीओ", icon: <Target size={24} />, description: "गैर-सरकारी संगठन" },
     { name: "स्कूल", icon: <GraduationCap size={24} />, description: "शैक्षणिक संस्थान" },
     { name: "कॉलेज", icon: <Building2 size={24} />, description: "उच्च शिक्षा संस्थान" },
     { name: "संस्थाएं", icon: <Briefcase size={24} />, description: "निजी एवं सार्वजनिक संस्थाएं" },
-    { name: "ट्रस्ट", icon: <BookOpen size={24} />, description: "धार्मिक एवं परोपकारी ट्रस्ट" },
+    { name: "समितियाँ", icon: <Users size={24} />, description: "सामाजिक एवं आन्य समितियाँ" },
+
+    // { name: "ट्रस्ट", icon: <BookOpen size={24} />, description: "धार्मिक एवं परोपकारी ट्रस्ट" },
   ];
 
   return (
@@ -25,7 +26,7 @@ const Specialization: React.FC = () => {
           </div>
           <div className="spec-items">
             {specializations.map((spec, index) => (
-              <div key={index} className={`spec-item spec-${index} glass-morphism reveal`} style={{ animationDelay: `${0.2 + index * 0.1}s` }}>
+              <div key={index} className={`spec-item spec-${index + 1} glass-morphism reveal`} style={{ animationDelay: `${0.2 + index * 0.1}s` }}>
                 <div className="spec-icon">{spec.icon}</div>
                 <div className="spec-text">
                   <span className="spec-name">{spec.name}</span>

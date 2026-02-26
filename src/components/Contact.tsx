@@ -51,6 +51,13 @@ const Contact: React.FC = () => {
                 </div>
               </div>
               <div className="info-item">
+                <span className="info-icon">💬</span>
+                <div>
+                  <p className="info-label">व्हाट्सप्प नंबर ( "कृतिक सिंह भदोरिया")</p>
+                  <a href="https://wa.me/918319183027" className="info-value">8319183027</a>
+                </div>
+              </div>
+              <div className="info-item">
                 <span className="info-icon">📍</span>
                 <div>
                   <p className="info-label">स्थान</p>

@@ -7,13 +7,13 @@ const Hero: React.FC = () => {
       <div className="container hero-container">
         <div className="hero-content reveal">
           <div className="hero-badge reveal" style={{ animationDelay: '0.1s' }}>
-            <span className="badge-text">मध्य प्रदेश का विश्वसनीय सलाहकार</span>
+            <span className="badge-text">सोसायटी एवं एनजीओ सलाहकार</span>
           </div>
           <h1 className="hero-title reveal" style={{ animationDelay: '0.2s' }}>
             सोसायटी एवं <span className="premium-gradient-text">एनजीओ सलाहकार</span> सेवाएँ
           </h1>
           <p className="hero-subtitle reveal" style={{ animationDelay: '0.3s' }}>
-            उज्जैन संभाग एवं पूरे मध्य प्रदेश में समितियों, एनजीओ, स्कूल एवं कॉलेजों के लिए पूर्ण स्पेक्ट्रम कार्य। हम आपके विज़न को हकीकत में बदलने में मदद करते हैं।
+            उज्जैन संभाग एवं अवम अन्य संभागो में समितियों, एनजीओ, स्कूल एवं कॉलेजों के लिए पूर्ण स्पेक्ट्रम कार्य। हम आपके विज़न को हकीकत में बदलने में मदद करते हैं।
           </p>
           <div className="hero-actions reveal" style={{ animationDelay: '0.4s' }}>
             <a href="https://wa.me/919826045481" className="cta-button">

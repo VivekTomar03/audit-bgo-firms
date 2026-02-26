@@ -2,32 +2,32 @@ import React from 'react';
 import { Users2, CheckCircle, CalendarDays, Globe } from 'lucide-react';
 
 const Stats: React.FC = () => {
-    const stats = [
-        { label: "संतुष्ट ग्राहक", value: "500+", icon: <Users2 size={24} /> },
-        { label: "सफल परियोजनाएं", value: "100+", icon: <CheckCircle size={24} /> },
-        { label: "वर्षों का अनुभव", value: "11", icon: <CalendarDays size={24} /> },
-        { label: "सेवा क्षेत्र", value: "MP", icon: <Globe size={24} /> }
-    ];
+  const stats = [
+    { label: "संतुष्ट ग्राहक", value: "5000+", icon: <Users2 size={24} /> },
+    { label: "सफल परियोजनाएं", value: "1000+", icon: <CheckCircle size={24} /> },
+    { label: "वर्षों का अनुभव", value: "25+", icon: <CalendarDays size={24} /> },
+    { label: "सेवा क्षेत्र", value: "All Division", icon: <Globe size={24} /> }
+  ];
 
-    return (
-        <section className="stats reveal">
-            <div className="container">
-                <div className="stats-grid glass-morphism">
-                    {stats.map((stat, index) => (
-                        <div key={index} className="stat-card">
-                            <div className="stat-icon-bg">
-                                {stat.icon}
-                            </div>
-                            <div className="stat-info">
-                                <span className="stat-value">{stat.value}</span>
-                                <span className="stat-label">{stat.label}</span>
-                            </div>
-                            {index < stats.length - 1 && <div className="stat-divider"></div>}
-                        </div>
-                    ))}
-                </div>
+  return (
+    <section className="stats reveal">
+      <div className="container">
+        <div className="stats-grid glass-morphism">
+          {stats.map((stat, index) => (
+            <div key={index} className="stat-card">
+              <div className="stat-icon-bg">
+                {stat.icon}
+              </div>
+              <div className="stat-info">
+                <span className="stat-value">{stat.value}</span>
+                <span className="stat-label">{stat.label}</span>
+              </div>
+              {index < stats.length - 1 && <div className="stat-divider"></div>}
             </div>
-            <style>{`
+          ))}
+        </div>
+      </div>
+      <style>{`
         .stats {
           padding: 4rem 0;
           margin-top: -6rem;
@@ -86,8 +86,8 @@ const Stats: React.FC = () => {
           .stats-grid { grid-template-columns: 1fr; padding: 3rem; }
         }
       `}</style>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default Stats;
