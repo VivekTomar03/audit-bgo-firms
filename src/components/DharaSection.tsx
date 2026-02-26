@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, LandPlot, ShieldCheck, HelpCircle } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 const DharaSection: React.FC = () => {
   return (

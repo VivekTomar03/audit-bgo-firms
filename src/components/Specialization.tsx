@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, Users, BookOpen, Building2, Briefcase, GraduationCap } from 'lucide-react';
+import { Target, Users, Building2, Briefcase, GraduationCap } from 'lucide-react';
 
 const Specialization: React.FC = () => {
   const specializations = [
