@@ -68,6 +68,11 @@ function App() {
               </div>
             </div>
           </div>
+
+        </div>
+        <div style={{ alignSelf: "center", margin: "auto", width: "100%", textAlign: "center" }} className="footer-brand">
+          <span className="premium-gradient-text">अपनी वेबसाइट बनाएं</span>
+          <p>संपर्क करें: <span className="premium-gradient-text">tomarvivek90viv@gmail.com[7415786664]</span></p>
         </div>
       </footer>
 
